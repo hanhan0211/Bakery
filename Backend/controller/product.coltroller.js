@@ -100,4 +100,4 @@ const ratingProduct = asyncHandler(async(req,res) =>{
     }
     
 });
-export {ratingProduct,getAllproducts, getProduct,createProduct, updateProduct, }deleteProduct
+export {ratingProduct,getAllproducts, getProduct, createProduct, updateProduct, deleteProduct}
