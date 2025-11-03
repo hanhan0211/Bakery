@@ -76,6 +76,7 @@ const getAllproducts = asyncHandler(async(req,res) =>{
         }) 
     }else{
         products = await Product.find().sort({createdAt: -1});
+        res.status(200).json(products)
     }
 });
 
