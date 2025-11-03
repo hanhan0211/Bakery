@@ -1,4 +1,4 @@
-import User from "/models/user.model.js";
+import User from "../models/user.model.js";
 import asyncHandler from "express-async-handler";
 import bcrypt from "bcryptjs";
 
@@ -54,4 +54,4 @@ const getAllUsers = asyncHandler(async(req,res) =>{
     }
 });
 
-export {getAllUsers, getUser, deleteUser, updateUser}
+export {getAllUsers, getUser, deleteUser, updateUser};
