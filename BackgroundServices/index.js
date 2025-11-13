@@ -20,10 +20,13 @@ const services = () => {
 };
 
 const promotion = () => {
-  cron.schedule("30 5 * * 5", () => {});
-  //sending promotion email
-  sendPromotionEmail();
+  // chạy 5:30 sáng thứ 6 hằng tuần
+  cron.schedule("30 5 * * 5", () => {
+    //console.log("⏰ Đến giờ gửi mail khuyến mãi rồi!");
+    sendPromotionEmail();
+  });
 };
+
 
 services();
 promotion();

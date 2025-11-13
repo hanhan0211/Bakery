@@ -2,86 +2,46 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8" />
-  <title>🎀 Chào mừng bạn đến với Hannie Bakery 🎀</title>
+  <title>Chào mừng bạn đến với Bakery Hannie 💗</title>
   <style>
     body {
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       background: #fff0f6;
-      margin: 0;
-      padding: 0;
       color: #444;
+      text-align: center;
+      padding: 40px;
     }
-    .container {
-      max-width: 650px;
+    .card {
       background: #fff;
-      margin: 40px auto;
-      border-radius: 18px;
-      overflow: hidden;
-      box-shadow: 0 10px 25px rgba(255, 182, 193, 0.4);
-    }
-    .header {
-      background: linear-gradient(135deg, #ffb6c1, #ffc0cb);
-      padding: 30px 0;
-      text-align: center;
-    }
-    .header img {
-      width: 80px;
-      border-radius: 50%;
-      border: 2px solid white;
-    }
-    .header h1 {
-      color: white;
-      margin-top: 10px;
-      font-size: 28px;
-    }
-    .content {
+      border-radius: 15px;
+      max-width: 600px;
+      margin: auto;
       padding: 30px;
-      text-align: center;
-      background: #fffafc;
+      box-shadow: 0 4px 15px rgba(255, 192, 203, 0.4);
     }
-    .content h2 {
+    h1 {
       color: #e75480;
-      margin-bottom: 15px;
-    }
-    .content p {
-      font-size: 16px;
-      line-height: 1.6;
     }
     .btn {
-      background-color: #ff7fa8;
+      background-color: #ff91a4;
       color: white;
-      padding: 12px 30px;
+      padding: 12px 25px;
       border-radius: 30px;
       text-decoration: none;
       display: inline-block;
       margin-top: 20px;
-      font-weight: 600;
-      box-shadow: 0 4px 12px rgba(255, 182, 193, 0.5);
     }
-    .footer {
-      background: #ffe6ef;
-      text-align: center;
-      padding: 20px;
-      font-size: 13px;
-      color: #777;
+    .btn:hover {
+      background-color: #e75480;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <img src="https://cdn-icons-png.flaticon.com/512/868/868786.png" alt="Bakery Logo">
-      <h1>Hannie Bakery</h1>
-    </div>
-    <div class="content">
-      <h2>Chào mừng <%= name %> 💗</h2>
-      <p>Cảm ơn bạn đã gia nhập đại gia đình ngọt ngào của <b>Hannie Bakery</b> 🎂<br>
-      Từ hôm nay, bạn sẽ nhận được những ưu đãi hấp dẫn và cập nhật bánh mới mỗi tuần!</p>
-      <a href="https://hanniebakery.vn" class="btn">Khám phá bánh ngay 🍰</a>
-    </div>
-    <div class="footer">
-      <p>© 2025 Hannie Bakery · <a href="https://facebook.com/hanniebakery">Facebook</a> · <a href="https://instagram.com/bakeryhannie">Instagram</a></p>
-    </div>
+  <div class="card">
+    <h1>🎀 Chào mừng <%= name %> đến với Bakery Hannie! 🎀</h1>
+    <p>Cảm ơn bạn đã đăng ký thành viên tại <b>Bakery Hannie</b> 💕.</p>
+    <p>Từ giờ bạn có thể đặt bánh kem yêu thích, nhận ưu đãi đặc biệt và cập nhật nhanh các hương vị mới nhất!</p>
+    <a href="https://bakeryhannie.vn" class="btn">Khám phá ngay 🍰</a>
   </div>
 </body>
 </html>
