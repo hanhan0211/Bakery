@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>🍰 Đơn hàng của bạn đang được chuẩn bị!</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #fff5f8;
+      margin: 0;
+      padding: 0;
+      color: #444;
+    }
+    .mail {
+      max-width: 640px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(255, 182, 193, 0.4);
+    }
+    .header {
+      background: linear-gradient(120deg, #ffb6c1, #ffa6c9);
+      text-align: center;
+      padding: 25px 0;
+    }
+    .header img {
+      width: 70px;
+      border-radius: 50%;
+      border: 2px solid white;
+    }
+    .header h1 {
+      color: #fff;
+      margin: 10px 0 0 0;
+      font-size: 26px;
+    }
+    .content {
+      padding: 30px;
+      text-align: center;
+      background: #fffafc;
+    }
+    .content h2 {
+      color: #e75480;
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+    .content p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .btn {
+      background: #ff7fa8;
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-block;
+      margin-top: 20px;
+      box-shadow: 0 4px 12px rgba(255, 182, 193, 0.5);
+    }
+    .footer {
+      background: #ffeaf1;
+      text-align: center;
+      padding: 15px;
+      font-size: 13px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="mail">
+    <div class="header">
+      <img src="https://cdn-icons-png.flaticon.com/512/3038/3038190.png" alt="Cake Icon">
+      <h1>Hannie Bakery</h1>
+    </div>
+    <div class="content">
+      <h2>Đơn hàng của bạn đang được chuẩn bị, <%= name %> 💕</h2>
+      <p>Các đầu bếp của <b>Hannie Bakery</b> đang cẩn thận trang trí từng lớp kem cho chiếc bánh của bạn 🎂</p>
+      <p>Chúng mình sẽ sớm giao bánh đến tận tay bạn, để vị ngọt được trọn vẹn nhất ✨</p>
+      <a href="https://hanniebakery.vn/orders" class="btn">Xem chi tiết đơn hàng</a>
+    </div>
+    <div class="footer">
+      <p>© 2025 Hannie Bakery | Mỗi chiếc bánh là một niềm vui 💗</p>
+    </div>
+  </div>
+</body>
+</html>

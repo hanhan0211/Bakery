@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>🎂 Đơn hàng của bạn đã được giao!</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #fff0f6;
+      margin: 0;
+      padding: 0;
+      color: #444;
+    }
+    .mail {
+      max-width: 640px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(255, 182, 193, 0.5);
+    }
+    .header {
+      background: linear-gradient(135deg, #ffb6c1, #ffc0cb);
+      text-align: center;
+      padding: 25px 0;
+    }
+    .header img {
+      width: 75px;
+      border-radius: 50%;
+      border: 2px solid white;
+    }
+    .header h1 {
+      color: white;
+      margin-top: 10px;
+      font-size: 26px;
+    }
+    .content {
+      padding: 30px;
+      text-align: center;
+      background: #fffafc;
+    }
+    .content h2 {
+      color: #e75480;
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+    .content p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .btn {
+      background: #ff7fa8;
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-block;
+      margin-top: 20px;
+      box-shadow: 0 4px 12px rgba(255, 182, 193, 0.6);
+    }
+    .footer {
+      background: #ffe6ef;
+      text-align: center;
+      padding: 15px;
+      font-size: 13px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="mail">
+    <div class="header">
+      <img src="https://cdn-icons-png.flaticon.com/512/7662/7662743.png" alt="Cake Delivered">
+      <h1>Hannie Bakery</h1>
+    </div>
+    <div class="content">
+      <h2>🎉 Đơn hàng của bạn đã được giao, <%= name %>!</h2>
+      <p>Hy vọng chiếc bánh nhỏ từ <b>Hannie Bakery</b> đã làm ngày của bạn thêm ngọt ngào 🍓</p>
+      <p>Đừng quên chia sẻ khoảnh khắc của bạn với chúng mình qua hashtag <b>#Hannie Bakery</b> nhé 💕</p>
